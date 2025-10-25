@@ -54,9 +54,16 @@
             max-width: 358px;
             width: 100%;
             .inner__title {
+              max-width: 356px;
               font-size: 39.7px;
               line-height: 53px;
-              text-align: center;
+              justify-content: center;
+              .span-1 {
+                display: none;
+              }
+              .span-2 {
+                display: block;
+              }
             }
             .inner__warp {
               justify-content: center;
