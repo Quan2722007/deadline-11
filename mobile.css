@@ -1,0 +1,209 @@
+@media only screen and (max-width: 650px) {
+  .header {
+    .container {
+      max-width: 360px;
+      width: 95%;
+      .inner__logo {
+        margin: 0;
+      }
+      .inner__menu {
+        display: none;
+      }
+      .inner__icon {
+        display: block;
+      }
+    }
+  }
+  .container {
+    max-width: 360px;
+    width: 95%;
+  }
+  .wraper {
+    padding-bottom: 60px;
+    gap: 36px;
+    height: auto;
+    .herosection {
+      .inner__box-1 {
+        .inner__title {
+          font-size: 37.9px;
+          line-height: 47px;
+        }
+      }
+      .inner__box-2 {
+        .inner__button {
+          width: 211px;
+        }
+        .inner__warp {
+          justify-content: center;
+          flex-wrap: wrap;
+          gap: 28px;
+          .inner__picture {
+            max-width: 356px;
+            width: 100%;
+            height: 391px;
+          }
+        }
+      }
+    }
+    .container {
+      .background {
+        .section__2 {
+          height: auto;
+          .inner__box {
+            gap: 40px;
+            max-width: 358px;
+            width: 100%;
+            .inner__title {
+              font-size: 39.7px;
+              line-height: 53px;
+              text-align: center;
+            }
+            .inner__warp {
+              justify-content: center;
+              gap: 26px;
+              flex-wrap: wrap;
+              .box {
+                max-width: 356px;
+                width: 100%;
+                height: 188px;
+                p {
+                  margin: 0;
+                  width: 255px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .section__3 {
+      flex-wrap: wrap;
+      .inner__picture {
+        width: 100%;
+      }
+      .inner__box {
+        gap: 26px;
+        .inner__wrap-1 {
+          .inner__title {
+            font-size: 39.7px;
+            line-height: 49px;
+            text-align: center;
+          }
+          .inner__content-change {
+            text-align: center;
+            color: #2a2a2a;
+          }
+        }
+        .inner__wrap-2 {
+          .inner__content {
+            span {
+              display: none;
+            }
+          }
+        }
+      }
+    }
+    .container--change {
+      max-width: 360px;
+      width: 95%;
+      .background {
+        .section__4 {
+          height: auto;
+          .inner__picture {
+            display: none;
+          }
+          .inner__box {
+            padding: 51px 0 43px 0;
+            .inner__title {
+              max-width: 350px;
+              width: 100%;
+              height: auto;
+              font-size: 39.7px;
+              line-height: 47px;
+              text-align: center;
+            }
+            .inner__wrap {
+              gap: 41px;
+              flex-wrap: wrap;
+              .wrap {
+                height: auto;
+                /* flex-wrap: wrap; */
+                width: 100%;
+                .inner__content {
+                  text-align: center;
+                  max-width: 281px;
+                  width: 100%;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .container {
+      .block {
+        height: 987.76px;
+        .section__5 {
+          height: 356px;
+          .inner__box-1 {
+            gap: 13px;
+            margin-top: 72.26px;
+            .inner__logo {
+              height: 41.473731994628906px;
+              width: 46.557861328125px;
+            }
+            .inner__warp {
+              max-width: 228px;
+              width: 100%;
+              gap: 13px;
+              .warp {
+                .inner__title {
+                  text-align: center;
+                  font-size: 21.33px;
+                  line-height: 31px;
+                }
+                .inner__content {
+                  display: none;
+                }
+              }
+            }
+            .inner__button {
+              width: 198px;
+              font-size: 16.33px;
+            }
+          }
+          .inner__box-2 {
+            height: 701px;
+            max-width: 298px;
+            width: 95%;
+            .boxsmall {
+              .box {
+                width: 100%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .background__footer {
+    height: 365px;
+    .footer {
+      gap: 36px;
+      max-width: 166px;
+      width: 95%;
+      .inner__box {
+        gap: 36px;
+        .inner__logo {
+          .inner__circle {
+            background-color: #f4f4f4;
+          }
+        }
+        .inner__box-1 {
+          flex-wrap: wrap;
+          gap: 36px 40px;
+        }
+      }
+    }
+  }
+}

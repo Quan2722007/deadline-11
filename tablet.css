@@ -1,0 +1,128 @@
+@media only screen and (max-width: 1024px) {
+  .container {
+    max-width: 884px;
+    width: 95%;
+  }
+  .header {
+    .inner__icon {
+      display: none;
+    }
+  }
+  .wraper {
+    height: auto;
+    gap: 80px;
+    margin: 0;
+    padding-bottom: 87.5px;
+    .container {
+      .herosection {
+        .inner__box-1 {
+          .inner__content {
+            max-width: 670px;
+            width: 100%;
+          }
+        }
+      }
+    }
+    .container {
+      .background {
+        .section__2 {
+          align-items: flex-start;
+          height: 396.5px;
+          justify-content: center;
+          .inner__box {
+            .inner__warp {
+              .box {
+                align-items: center;
+                p {
+                  text-align: center;
+                }
+              }
+            }
+          }
+          .inner__picture {
+            display: none;
+          }
+        }
+      }
+    }
+    .section__3 {
+      gap: 25px;
+      .inner__box {
+        .inner__wrap-2 {
+          align-items: center;
+          .inner__content {
+            color: #285e67;
+          }
+        }
+      }
+    }
+    .container--change {
+      max-width: 884px;
+      width: 95%;
+      justify-content: center;
+      .background {
+        .section__4 {
+          height: 541px;
+          .inner__picture {
+            display: none;
+          }
+          .inner__box {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            .inner__title {
+              align-items: flex-start;
+              margin: 0;
+              padding-top: 11px;
+              height: 88px;
+            }
+            .inner__wrap {
+              .wrap {
+                align-items: center;
+                .inner__content {
+                  text-align: center;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .block {
+      height: 873px;
+      .section__5 {
+        border-radius: 0;
+        .inner__box-2 {
+          max-width: 743px;
+          width: 95%;
+          .boxsmall {
+            max-width: 600px;
+            gap: 49px 30px;
+            .box {
+              width: calc((100% - 30px) / 2);
+              gap: 18px;
+              .inner__item {
+                height: 60px;
+                width: 60px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .background__footer {
+    .footer {
+      max-width: 747px;
+      width: 90%;
+      .inner__box {
+        flex-direction: column;
+        gap: 36px;
+        .inner__circle {
+          background-color: #d0d0d0;
+        }
+      }
+    }
+  }
+}
