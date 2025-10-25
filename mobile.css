@@ -1,4 +1,4 @@
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 734px) {
   .header {
     .container {
       max-width: 360px;
@@ -49,6 +49,7 @@
       .background {
         .section__2 {
           height: auto;
+          padding: 51px 0 43px 0;
           .inner__box {
             gap: 40px;
             max-width: 358px;

@@ -27,12 +27,12 @@ body {
     display: flex;
     justify-content: space-between;
     height: 90px;
-    max-width: 1283px;
+    max-width: 1300px;
     width: 95%;
     .inner__logo {
       display: flex;
       gap: 12px;
-      margin-left: 8.5px;
+      margin-left: 18px;
       .inner__circle {
         width: 26px;
         height: 26px;
@@ -120,9 +120,9 @@ body {
   .section__2 {
     display: flex;
     justify-content: space-between;
-    padding: 64px 0 66px 0;
     width: 95%;
     max-width: 1076px;
+    height: 446px;
     .inner__box {
       display: flex;
       flex-direction: column;
