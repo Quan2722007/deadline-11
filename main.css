@@ -170,6 +170,8 @@ body {
     align-items: center;
     gap: 53px;
     .inner__picture {
+      object-fit: cover;
+      border-radius: 16px;
       width: calc((100% - 53px) / 2);
       height: 578px;
     }
